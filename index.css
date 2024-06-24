@@ -391,50 +391,50 @@ footer {
 
 @media only screen and (max-width: 480px) {
     nav {
-        padding: 10px 0;
+        padding: 10px 0; /* Adjust navigation padding */
     }
 
     nav ul li {
-        margin: 5px 0;
+        margin: 5px 0; /* Further decrease margin for navigation items */
     }
 
     nav ul li a {
-        font-size: 1em;
+        font-size: 1em; /* Decrease font size for smaller screens */
     }
 
     .hero-text h1 {
-        font-size: 3em;
+        font-size: 2.5em; /* Further decrease font size for smaller screens */
     }
 
     .hero-text p {
-        font-size: 1.2em;
+        font-size: 0.8em; /* Further decrease font size for smaller screens */
     }
 
     .hero-btn {
-        font-size: 1em;
-        padding: 12px 24px;
+        padding: 10px 20px; /* Further decrease button padding */
+        font-size: 0.8em; /* Further decrease font size for smaller screens */
     }
 
     .overlay-text h2 {
-        font-size: 1.2em;
+        font-size: 1em; /* Decrease font size for smaller screens */
     }
 
     .overlay-text p {
-        font-size: 0.9em;
+        font-size: 0.8em; /* Decrease font size for smaller screens */
     }
 
     .register-btn {
-        padding: 12px 24px;
-        font-size: 1em;
+        padding: 10px 20px; /* Further decrease button padding */
+        font-size: 0.8em; /* Decrease font size for smaller screens */
     }
 
     .event-fees section {
-        padding: 12px 24px;
-        font-size: 1em;
+        padding: 10px 20px; /* Further decrease section padding */
+        font-size: 0.8em; /* Decrease font size for smaller screens */
     }
 
     .thing {
-        padding: 15px;
-        font-size: 0.9em;
+        padding: 10px; /* Further decrease padding for items */
+        font-size: 0.8em; /* Decrease font size for smaller screens */
     }
 }
