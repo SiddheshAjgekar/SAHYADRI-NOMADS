@@ -365,20 +365,18 @@ footer {
     line-height: 1.5;
 }
 
-/* Media Queries for Responsiveness */
-@media (max-width: 768px) {
+/* Responsive Adjustments */
+@media only screen and (max-width: 768px) {
     .logo-container {
-        justify-content: center;
         flex-direction: column;
-        align-items: center;
+        align-items: flex-start;
     }
 
-    .hero-text h1 {
-        font-size: 2.5em;
-    }
-
-    .hero-text p {
-        font-size: 1.2em;
+    .logo {
+        position: static;
+        width: 5em;
+        height: 5em;
+        margin-bottom: 10px;
     }
 
     nav ul {
@@ -386,41 +384,57 @@ footer {
         align-items: center;
     }
 
-    .carousel-item {
-        width: calc(100% - 40px); /* Full width minus padding */
-        height: auto; /* Adjust height */
-    }
-
-    .grid {
-        grid-template-columns: 1fr;
+    nav ul li {
+        margin: 10px 0;
     }
 }
 
-@media (max-width: 480px) {
+@media only screen and (max-width: 480px) {
+    nav {
+        padding: 10px 0;
+    }
+
+    nav ul li {
+        margin: 5px 0;
+    }
+
+    nav ul li a {
+        font-size: 1em;
+    }
+
     .hero-text h1 {
-        font-size: 2em;
+        font-size: 3em;
     }
 
     .hero-text p {
+        font-size: 1.2em;
+    }
+
+    .hero-btn {
         font-size: 1em;
+        padding: 12px 24px;
     }
 
-    .carousel {
-        flex-direction: column;
+    .overlay-text h2 {
+        font-size: 1.2em;
     }
 
-    .carousel-item {
-        width: 100%; /* Full width */
-        height: auto; /* Adjust height */
+    .overlay-text p {
+        font-size: 0.9em;
     }
 
     .register-btn {
+        padding: 12px 24px;
         font-size: 1em;
-        padding: 10px 20px;
     }
 
     .event-fees section {
+        padding: 12px 24px;
         font-size: 1em;
-        padding: 10px 20px;
+    }
+
+    .thing {
+        padding: 15px;
+        font-size: 0.9em;
     }
 }
